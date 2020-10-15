@@ -132,7 +132,6 @@ header{
   /* fine elemnti header */
 
 main{
-  height: 600px;
   background-color: white;
   margin-top: 30px;
 }
@@ -141,6 +140,9 @@ main{
 .row_one{
   width: 100%;
   background-color: white;
+  margin-bottom: 30px;
+  border-bottom: 2px solid grey;
+  padding-bottom: 30px;
 }
 
 
@@ -189,7 +191,7 @@ main{
 
 .text{
   color: grey;
-  text-align: justify;
+  text-align: center;
   font-size: 20px;
   font-family: roboto;
   padding-left: 10px;
@@ -197,13 +199,19 @@ main{
 }
 
 
-.row_two{
-  background-color: yellow;
+
+
+.image_one{
+  background-image: url(../img/mountain.svg);
+  background-size: cover;
+  width: 50%;
+  height: 500px;
 }
 
 footer{
   height: 200px;
   background-color: grey;
+  margin-top: 30px;
 
 }
 
