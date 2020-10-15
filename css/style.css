@@ -292,12 +292,12 @@ footer{
 
 .pulsanti{
   height: 50px;
-  text-align: left;
   line-height: 75px;
 }
 
-.ultimo{
-  margin-left: 50px;
+.quadro_1, .quadro_2{
+  width: 50%;
+  
 }
 
 
@@ -306,11 +306,17 @@ footer{
   background-color: #64DE82;
   border-radius: 5px;
   padding: 10px 20px;
+  text-decoration: none;
+  text-align: right;
+}
+
+.box_2{
+  text-align: right;
 }
 
 
 
-.row_one, .row_two, .navbar, footer:after{
+.row_one, .row_two, .navbar, footer, .box_2:after{
   content: "";
   display: table;
   clear: both;
