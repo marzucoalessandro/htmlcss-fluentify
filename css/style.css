@@ -5,7 +5,7 @@
 }
 
 body{
-  width: 1200px;
+  width: 1250px;
   margin: auto;
 }
 
@@ -71,15 +71,20 @@ header{
 
 
 .container{
-  height: 300px;
+  height: 350px;
   padding-left: 10%;
-  width: 90%;
+  width: 100%;
   color: white;
   position: relative;
+  background-image: url(../img/banner_header.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  
 }
 
 .titolo{
-  width: 45%;
+  width: 40%;
   height: 20%;
   position: absolute;
   top: calc(50%-250px);
@@ -102,6 +107,7 @@ header{
   font-size: 45px;
   margin-bottom: 30px;
   font-weight: 500;
+  font-family: roboto;
 }
 
 
