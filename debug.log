@@ -1,1 +1,2 @@
 [1015/144058.448:ERROR:directory_reader_win.cc(43)] FindFirstFile: Impossibile trovare il percorso specificato. (0x3)
+[1015/161758.052:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Acer\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\04f9f99a-b18d-4cd3-af54-f137b46dafa9: Impossibile trovare il percorso specificato. (0x3)
