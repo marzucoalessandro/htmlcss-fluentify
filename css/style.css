@@ -7,15 +7,14 @@
 header{
   height: 550px;
   background-color: blue;
-  position: relative;
 }
 
 .navbar{
   height: 100px;
   background-color: white;
-  width: 100%;
+  /* width: 100%;
   padding-left: 10%;
-  padding-right: 10%;
+  padding-right: 10%; */
 }
 
 .container{
@@ -27,30 +26,37 @@ header{
 .bottombar{
   height: 150px;
   background-color: red;
-  width: 100%;
+  /* width: 100%;
   padding-left: 10%;
-  padding-right: 10%;
+  padding-right: 10%; */
 }
 
 main{
   height: 1000px;
   background-color: yellow;
-  width: 100%;
+  /* width: 100%;
   padding-left: 10%;
-  padding-right: 10%;
+  padding-right: 10%; */
+}
+
+.row_one:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 footer{
   height: 200px;
   background-color: grey;
-  width: 100%;
+  /* width: 100%;
   padding-left: 10%;
-  padding-right: 10%;
+  padding-right: 10%; */
 }
 
 /* class utility */
 
-.bordo{
-  width: 80%;
-  margin: auto;
+.margini{
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
