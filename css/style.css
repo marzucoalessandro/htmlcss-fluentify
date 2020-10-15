@@ -10,7 +10,7 @@ body{
 }
 
 header{
-  height: 550px;
+  /* height: 600px; */
   background-color: #001A4F;
 }
 
@@ -80,7 +80,7 @@ header{
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
-  
+
 }
 
 .titolo{
@@ -110,31 +110,34 @@ header{
   font-family: roboto;
 }
 
-
-
-
-
-
-
-
-
-
 .bottombar{
-  height: 150px;
-  background-color: grey;
+  /* height: 200px; */
+  background-color: lightgrey;
+  text-align: center;
+  line-height: 55px;
+  }
 
-}
+  .bottombar h3{
+    font-family: roboto;
+    font-size: 20px;
+    height: 30px;
+    }
+
+  .bottombar span{
+    font-family: roboto;
+    color: grey;
+    font-weight: 400;
+  }
 
 main{
-  height: 700px;
+  height: 600px;
   background-color: white;
-
 }
 
 
 .row_one{
   width: 100%;
-  background-color: red;
+  background-color: white;
 }
 
 .row_two{
