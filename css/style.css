@@ -297,7 +297,13 @@ footer{
 
 .quadro_1, .quadro_2{
   width: 50%;
-  
+  height: 150px;
+}
+
+h4{
+  color: grey;
+  font-family: roboto;
+  font-weight: normal;
 }
 
 
@@ -308,12 +314,19 @@ footer{
   padding: 10px 20px;
   text-decoration: none;
   text-align: right;
+  color: white;
+  text-transform: uppercase;
+  font-family: roboto;
+  font-size: 15px;
 }
 
 .box_2{
   text-align: right;
 }
 
+.due{
+  padding-right: 40px;
+}
 
 
 .row_one, .row_two, .navbar, footer, .box_2:after{
